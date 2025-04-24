@@ -1,6 +1,7 @@
 <?php
 /**
  * PHP port of https://github.com/mapbox/polylabel
+ * for use with https://gasparesganga.com/labs/php-shapefile/
  **/
 namespace utility;
 
