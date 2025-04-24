@@ -1,3 +1,6 @@
+## PHP Polylabel
+A PHP port of https://github.com/mapbox/polylabel for use with https://gasparesganga.com/labs/php-shapefile/
+
 ## polylabel [![CI](https://github.com/mapbox/polylabel/actions/workflows/test.yml/badge.svg)](https://github.com/mapbox/polylabel/actions/workflows/test.yml) [![Simply Awesome](https://img.shields.io/badge/simply-awesome-brightgreen.svg)](https://github.com/mourner/projects)
 
 A fast algorithm for finding polygon _pole of inaccessibility_,
