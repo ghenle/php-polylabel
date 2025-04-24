@@ -213,22 +213,22 @@ class Cell {
 }
 
 class CellQueue {
-	public $queue;
+  public $queue;
 
   public function __construct() {
-		$this->queue = new \SplPriorityQueue();
-	}
+    $this->queue = new \SplPriorityQueue();
+  }
 
-	public function push(Cell $cell) {
-		$this->queue->insert($cell, $cell->max);
-	}
+  public function push(Cell $cell) {
+    $this->queue->insert($cell, $cell->max);
+  }
 
-	public function length() {
-		return $this->queue->count();
-	}
+  public function length() {
+    return $this->queue->count();
+  }
 
-	/** @return Cell */
-	public function pop() {
-		return $this->queue->extract();
-	}
+  /** @return Cell */
+  public function pop() {
+    return $this->queue->extract();
+  }
 }
